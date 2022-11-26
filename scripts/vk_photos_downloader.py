@@ -30,4 +30,4 @@ class Vk_Profile_Photo_Dowloader():
 if __name__ == "__main__":
     access_token = ''
     vk = Vk_Profile_Photo_Dowloader(access_token)
-    vk.get_photos(owner_id='52709815')
+    vk.get_photos(owner_id='')
