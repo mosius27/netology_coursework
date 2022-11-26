@@ -1,0 +1,1537 @@
+log time - 2022-11-26 19:59:26 | log level - ERROR | MainProcess - <module> | module name: main - line: 32 | message - An error has been caught in function '<module>', process 'MainProcess' (9200), thread 'MainThread' (10172):
+Traceback (most recent call last):
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+           │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │         └ <code object <module> at 0x000001D4CA7F9D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+           └ <function _run_code at 0x000001D4CA7EC550>
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+         └ <code object <module> at 0x000001D4CA7F9D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy\__main__.py", line 39, in <module>
+    cli.main()
+    │   └ <function main at 0x000001D4CD85BCA0>
+    └ <module 'debugpy.server.cli' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\lib\\python...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+    └ <function run_file at 0x000001D4CD85BA60>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+    │     │        └ 'f:\\development\\netology\\coursework\\main.py'
+    │     └ <function run_path at 0x000001D4CD4A6D30>
+    └ <module '_pydevd_bundle.pydevd_runpy' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+           │                │     │             └ '__main__'
+           │                │     └ None
+           │                └ <code object <module> at 0x000001D4CD8B4500, file "f:\development\netology\coursework\main.py", line 3>
+           └ <function _run_module_code at 0x000001D4CD4A69D0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+    │         │     │            └ None
+    │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+    │         └ <code object <module> at 0x000001D4CD8B4500, file "f:\development\netology\coursework\main.py", line 3>
+    └ <function _run_code at 0x000001D4CD4A65E0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+         └ <code object <module> at 0x000001D4CD8B4500, file "f:\development\netology\coursework\main.py", line 3>
+
+> File "f:\development\netology\coursework\main.py", line 32, in <module>
+    vk = Vk_Profile_Photo_Dowloader()
+         └ <class 'scripts.vk_photos_downloader.Vk_Profile_Photo_Dowloader'>
+
+TypeError: __init__() missing 1 required positional argument: 'token'
+log time - 2022-11-26 19:59:26 | log level - ERROR | MainProcess - <module> | module name: main - line: 32 | message - An error has been caught in function '<module>', process 'MainProcess' (9200), thread 'MainThread' (10172):
+Traceback (most recent call last):
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+           │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │         └ <code object <module> at 0x000001D4CA7F9D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+           └ <function _run_code at 0x000001D4CA7EC550>
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+         └ <code object <module> at 0x000001D4CA7F9D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy\__main__.py", line 39, in <module>
+    cli.main()
+    │   └ <function main at 0x000001D4CD85BCA0>
+    └ <module 'debugpy.server.cli' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\lib\\python...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+    └ <function run_file at 0x000001D4CD85BA60>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+    │     │        └ 'f:\\development\\netology\\coursework\\main.py'
+    │     └ <function run_path at 0x000001D4CD4A6D30>
+    └ <module '_pydevd_bundle.pydevd_runpy' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+           │                │     │             └ '__main__'
+           │                │     └ None
+           │                └ <code object <module> at 0x000001D4CD8B4500, file "f:\development\netology\coursework\main.py", line 3>
+           └ <function _run_module_code at 0x000001D4CD4A69D0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+    │         │     │            └ None
+    │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+    │         └ <code object <module> at 0x000001D4CD8B4500, file "f:\development\netology\coursework\main.py", line 3>
+    └ <function _run_code at 0x000001D4CD4A65E0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+         └ <code object <module> at 0x000001D4CD8B4500, file "f:\development\netology\coursework\main.py", line 3>
+
+> File "f:\development\netology\coursework\main.py", line 32, in <module>
+    vk = Vk_Profile_Photo_Dowloader()
+         └ <class 'scripts.vk_photos_downloader.Vk_Profile_Photo_Dowloader'>
+
+TypeError: __init__() missing 1 required positional argument: 'token'
+log time - 2022-11-26 20:05:38 | log level - INFO | MainProcess - <module> | module name: main - line: 44 | message - Не указан профиль
+log time - 2022-11-26 20:05:38 | log level - INFO | MainProcess - <module> | module name: main - line: 44 | message - Не указан профиль
+log time - 2022-11-26 20:34:13 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 22 | message - {'message': 'Указанный формат ресурса Диска "34:07" не корректен. Должен начинаться с /.', 'description': 'Specified path "34:07" has incorrect format', 'error': 'DiskPathFormatError'}
+log time - 2022-11-26 20:35:44 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 22 | message - {'message': 'Указанный формат ресурса Диска "35:44" не корректен. Должен начинаться с /.', 'description': 'Specified path "35:44" has incorrect format', 'error': 'DiskPathFormatError'}
+log time - 2022-11-26 20:53:27 | log level - ERROR | MainProcess - main | module name: main - line: 35 | message - An error has been caught in function 'main', process 'MainProcess' (10492), thread 'MainThread' (9436):
+Traceback (most recent call last):
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+           │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │         └ <code object <module> at 0x0000012ADD289D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+           └ <function _run_code at 0x0000012ADD27C550>
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+         └ <code object <module> at 0x0000012ADD289D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy\__main__.py", line 39, in <module>
+    cli.main()
+    │   └ <function main at 0x0000012AE02FBCA0>
+    └ <module 'debugpy.server.cli' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\lib\\python...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+    └ <function run_file at 0x0000012AE02FBA60>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+    │     │        └ 'f:\\development\\netology\\coursework\\main.py'
+    │     └ <function run_path at 0x0000012ADFF46D30>
+    └ <module '_pydevd_bundle.pydevd_runpy' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+           │                │     │             └ '__main__'
+           │                │     └ None
+           │                └ <code object <module> at 0x0000012AE03565B0, file "f:\development\netology\coursework\main.py", line 3>
+           └ <function _run_module_code at 0x0000012ADFF469D0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+    │         │     │            └ None
+    │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+    │         └ <code object <module> at 0x0000012AE03565B0, file "f:\development\netology\coursework\main.py", line 3>
+    └ <function _run_code at 0x0000012ADFF465E0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+         └ <code object <module> at 0x0000012AE03565B0, file "f:\development\netology\coursework\main.py", line 3>
+
+  File "f:\development\netology\coursework\main.py", line 64, in <module>
+    main()
+    └ <function main at 0x0000012AE09B7D30>
+
+> File "f:\development\netology\coursework\main.py", line 35, in main
+    largest_photo(item)
+    │             └ {'album_id': -6, 'date': 1566146571, 'id': 457240459, 'owner_id': 52709815, 'can_comment': 1, 'post_id': 590, 'sizes': [{'hei...
+    └ <function largest_photo at 0x0000012AE09D7430>
+
+  File "f:\development\netology\coursework\main.py", line 60, in largest_photo
+    out_json.append(d)
+                    └ {'size': {'type': 'w', 'url': 'https://sun9-27.userapi.com/impf/c854216/v854216136/c758d/UTElrINq7o4.jpg?size=1200x1600&quali...
+
+NameError: name 'out_json' is not defined
+log time - 2022-11-26 20:53:27 | log level - ERROR | MainProcess - main | module name: main - line: 35 | message - An error has been caught in function 'main', process 'MainProcess' (10492), thread 'MainThread' (9436):
+Traceback (most recent call last):
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+           │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │         └ <code object <module> at 0x0000012ADD289D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+           └ <function _run_code at 0x0000012ADD27C550>
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+         └ <code object <module> at 0x0000012ADD289D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy\__main__.py", line 39, in <module>
+    cli.main()
+    │   └ <function main at 0x0000012AE02FBCA0>
+    └ <module 'debugpy.server.cli' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\lib\\python...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+    └ <function run_file at 0x0000012AE02FBA60>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+    │     │        └ 'f:\\development\\netology\\coursework\\main.py'
+    │     └ <function run_path at 0x0000012ADFF46D30>
+    └ <module '_pydevd_bundle.pydevd_runpy' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+           │                │     │             └ '__main__'
+           │                │     └ None
+           │                └ <code object <module> at 0x0000012AE03565B0, file "f:\development\netology\coursework\main.py", line 3>
+           └ <function _run_module_code at 0x0000012ADFF469D0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+    │         │     │            └ None
+    │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+    │         └ <code object <module> at 0x0000012AE03565B0, file "f:\development\netology\coursework\main.py", line 3>
+    └ <function _run_code at 0x0000012ADFF465E0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+         └ <code object <module> at 0x0000012AE03565B0, file "f:\development\netology\coursework\main.py", line 3>
+
+  File "f:\development\netology\coursework\main.py", line 64, in <module>
+    main()
+    └ <function main at 0x0000012AE09B7D30>
+
+> File "f:\development\netology\coursework\main.py", line 35, in main
+    largest_photo(item)
+    │             └ {'album_id': -6, 'date': 1566146571, 'id': 457240459, 'owner_id': 52709815, 'can_comment': 1, 'post_id': 590, 'sizes': [{'hei...
+    └ <function largest_photo at 0x0000012AE09D7430>
+
+  File "f:\development\netology\coursework\main.py", line 60, in largest_photo
+    out_json.append(d)
+                    └ {'size': {'type': 'w', 'url': 'https://sun9-27.userapi.com/impf/c854216/v854216136/c758d/UTElrINq7o4.jpg?size=1200x1600&quali...
+
+NameError: name 'out_json' is not defined
+log time - 2022-11-26 20:53:27 | log level - ERROR | MainProcess - main | module name: main - line: 35 | message - An error has been caught in function 'main', process 'MainProcess' (10492), thread 'MainThread' (9436):
+Traceback (most recent call last):
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+           │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │         └ <code object <module> at 0x0000012ADD289D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+           └ <function _run_code at 0x0000012ADD27C550>
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+         └ <code object <module> at 0x0000012ADD289D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy\__main__.py", line 39, in <module>
+    cli.main()
+    │   └ <function main at 0x0000012AE02FBCA0>
+    └ <module 'debugpy.server.cli' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\lib\\python...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+    └ <function run_file at 0x0000012AE02FBA60>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+    │     │        └ 'f:\\development\\netology\\coursework\\main.py'
+    │     └ <function run_path at 0x0000012ADFF46D30>
+    └ <module '_pydevd_bundle.pydevd_runpy' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+           │                │     │             └ '__main__'
+           │                │     └ None
+           │                └ <code object <module> at 0x0000012AE03565B0, file "f:\development\netology\coursework\main.py", line 3>
+           └ <function _run_module_code at 0x0000012ADFF469D0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+    │         │     │            └ None
+    │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+    │         └ <code object <module> at 0x0000012AE03565B0, file "f:\development\netology\coursework\main.py", line 3>
+    └ <function _run_code at 0x0000012ADFF465E0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+         └ <code object <module> at 0x0000012AE03565B0, file "f:\development\netology\coursework\main.py", line 3>
+
+  File "f:\development\netology\coursework\main.py", line 64, in <module>
+    main()
+    └ <function main at 0x0000012AE09B7D30>
+
+> File "f:\development\netology\coursework\main.py", line 35, in main
+    largest_photo(item)
+    │             └ {'album_id': -6, 'date': 1627705732, 'id': 457244379, 'owner_id': 52709815, 'can_comment': 1, 'post_id': 604, 'sizes': [{'hei...
+    └ <function largest_photo at 0x0000012AE09D7430>
+
+  File "f:\development\netology\coursework\main.py", line 60, in largest_photo
+    out_json.append(d)
+                    └ {'size': {'type': 'z', 'url': 'https://sun9-28.userapi.com/impg/X70uQJys3Ul0uCQS2lJ3yPROmgARO8FJDp-sjw/XV3PLUFQDb4.jpg?size=7...
+
+NameError: name 'out_json' is not defined
+log time - 2022-11-26 20:53:27 | log level - ERROR | MainProcess - main | module name: main - line: 35 | message - An error has been caught in function 'main', process 'MainProcess' (10492), thread 'MainThread' (9436):
+Traceback (most recent call last):
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+           │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │         └ <code object <module> at 0x0000012ADD289D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+           └ <function _run_code at 0x0000012ADD27C550>
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+         └ <code object <module> at 0x0000012ADD289D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy\__main__.py", line 39, in <module>
+    cli.main()
+    │   └ <function main at 0x0000012AE02FBCA0>
+    └ <module 'debugpy.server.cli' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\lib\\python...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+    └ <function run_file at 0x0000012AE02FBA60>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+    │     │        └ 'f:\\development\\netology\\coursework\\main.py'
+    │     └ <function run_path at 0x0000012ADFF46D30>
+    └ <module '_pydevd_bundle.pydevd_runpy' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+           │                │     │             └ '__main__'
+           │                │     └ None
+           │                └ <code object <module> at 0x0000012AE03565B0, file "f:\development\netology\coursework\main.py", line 3>
+           └ <function _run_module_code at 0x0000012ADFF469D0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+    │         │     │            └ None
+    │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+    │         └ <code object <module> at 0x0000012AE03565B0, file "f:\development\netology\coursework\main.py", line 3>
+    └ <function _run_code at 0x0000012ADFF465E0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+         └ <code object <module> at 0x0000012AE03565B0, file "f:\development\netology\coursework\main.py", line 3>
+
+  File "f:\development\netology\coursework\main.py", line 64, in <module>
+    main()
+    └ <function main at 0x0000012AE09B7D30>
+
+> File "f:\development\netology\coursework\main.py", line 35, in main
+    largest_photo(item)
+    │             └ {'album_id': -6, 'date': 1627705732, 'id': 457244379, 'owner_id': 52709815, 'can_comment': 1, 'post_id': 604, 'sizes': [{'hei...
+    └ <function largest_photo at 0x0000012AE09D7430>
+
+  File "f:\development\netology\coursework\main.py", line 60, in largest_photo
+    out_json.append(d)
+                    └ {'size': {'type': 'z', 'url': 'https://sun9-28.userapi.com/impg/X70uQJys3Ul0uCQS2lJ3yPROmgARO8FJDp-sjw/XV3PLUFQDb4.jpg?size=7...
+
+NameError: name 'out_json' is not defined
+log time - 2022-11-26 21:12:52 | log level - ERROR | MainProcess - largest_photo | module name: main - line: 61 | message - An error has been caught in function 'largest_photo', process 'MainProcess' (11520), thread 'MainThread' (9344):
+Traceback (most recent call last):
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+           │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │         └ <code object <module> at 0x000002B80D9A9D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+           └ <function _run_code at 0x000002B80D99C550>
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+         └ <code object <module> at 0x000002B80D9A9D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy\__main__.py", line 39, in <module>
+    cli.main()
+    │   └ <function main at 0x000002B81057BCA0>
+    └ <module 'debugpy.server.cli' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\lib\\python...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+    └ <function run_file at 0x000002B81057BA60>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+    │     │        └ 'f:\\development\\netology\\coursework\\main.py'
+    │     └ <function run_path at 0x000002B8101C6D30>
+    └ <module '_pydevd_bundle.pydevd_runpy' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+           │                │     │             └ '__main__'
+           │                │     └ None
+           │                └ <code object <module> at 0x000002B8105D35B0, file "f:\development\netology\coursework\main.py", line 3>
+           └ <function _run_module_code at 0x000002B8101C69D0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+    │         │     │            └ None
+    │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+    │         └ <code object <module> at 0x000002B8105D35B0, file "f:\development\netology\coursework\main.py", line 3>
+    └ <function _run_code at 0x000002B8101C65E0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+         └ <code object <module> at 0x000002B8105D35B0, file "f:\development\netology\coursework\main.py", line 3>
+
+  File "f:\development\netology\coursework\main.py", line 68, in <module>
+    main()
+    └ <function main at 0x000002B81145AAF0>
+
+  File "f:\development\netology\coursework\main.py", line 38, in main
+    largest_photo(out_json, item=item)
+    │             │              └ {'album_id': -6, 'date': 1566146571, 'id': 457240459, 'owner_id': 52709815, 'can_comment': 1, 'post_id': 590, 'sizes': [{'hei...
+    │             └ []
+    └ <function largest_photo at 0x000002B8114601F0>
+
+> File "f:\development\netology\coursework\main.py", line 61, in largest_photo
+    'date': convert_unix_time_to_date(unix_time=item['date'])
+            │                                   └ {'album_id': -6, 'date': 1566146571, 'id': 457240459, 'owner_id': 52709815, 'can_comment': 1, 'post_id': 590, 'sizes': [{'hei...
+            └ <function convert_unix_time_to_date at 0x000002B81145AE50>
+
+  File "f:\development\netology\coursework\main.py", line 45, in convert_unix_time_to_date
+    date = datetime.utcfromtimestamp(unix_time) + timedelta(hours=time_delta).strftime('%Y-%m-%d %H-%M-%S')
+           │        │                │            │               └ 3
+           │        │                │            └ <class 'datetime.timedelta'>
+           │        │                └ 1566146571
+           │        └ <method 'utcfromtimestamp' of 'datetime.datetime' objects>
+           └ <class 'datetime.datetime'>
+
+AttributeError: 'datetime.timedelta' object has no attribute 'strftime'
+log time - 2022-11-26 21:12:52 | log level - ERROR | MainProcess - largest_photo | module name: main - line: 61 | message - An error has been caught in function 'largest_photo', process 'MainProcess' (11520), thread 'MainThread' (9344):
+Traceback (most recent call last):
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+           │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │         └ <code object <module> at 0x000002B80D9A9D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+           └ <function _run_code at 0x000002B80D99C550>
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+         └ <code object <module> at 0x000002B80D9A9D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy\__main__.py", line 39, in <module>
+    cli.main()
+    │   └ <function main at 0x000002B81057BCA0>
+    └ <module 'debugpy.server.cli' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\lib\\python...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+    └ <function run_file at 0x000002B81057BA60>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+    │     │        └ 'f:\\development\\netology\\coursework\\main.py'
+    │     └ <function run_path at 0x000002B8101C6D30>
+    └ <module '_pydevd_bundle.pydevd_runpy' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+           │                │     │             └ '__main__'
+           │                │     └ None
+           │                └ <code object <module> at 0x000002B8105D35B0, file "f:\development\netology\coursework\main.py", line 3>
+           └ <function _run_module_code at 0x000002B8101C69D0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+    │         │     │            └ None
+    │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+    │         └ <code object <module> at 0x000002B8105D35B0, file "f:\development\netology\coursework\main.py", line 3>
+    └ <function _run_code at 0x000002B8101C65E0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+         └ <code object <module> at 0x000002B8105D35B0, file "f:\development\netology\coursework\main.py", line 3>
+
+  File "f:\development\netology\coursework\main.py", line 68, in <module>
+    main()
+    └ <function main at 0x000002B81145AAF0>
+
+  File "f:\development\netology\coursework\main.py", line 38, in main
+    largest_photo(out_json, item=item)
+    │             │              └ {'album_id': -6, 'date': 1566146571, 'id': 457240459, 'owner_id': 52709815, 'can_comment': 1, 'post_id': 590, 'sizes': [{'hei...
+    │             └ []
+    └ <function largest_photo at 0x000002B8114601F0>
+
+> File "f:\development\netology\coursework\main.py", line 61, in largest_photo
+    'date': convert_unix_time_to_date(unix_time=item['date'])
+            │                                   └ {'album_id': -6, 'date': 1566146571, 'id': 457240459, 'owner_id': 52709815, 'can_comment': 1, 'post_id': 590, 'sizes': [{'hei...
+            └ <function convert_unix_time_to_date at 0x000002B81145AE50>
+
+  File "f:\development\netology\coursework\main.py", line 45, in convert_unix_time_to_date
+    date = datetime.utcfromtimestamp(unix_time) + timedelta(hours=time_delta).strftime('%Y-%m-%d %H-%M-%S')
+           │        │                │            │               └ 3
+           │        │                │            └ <class 'datetime.timedelta'>
+           │        │                └ 1566146571
+           │        └ <method 'utcfromtimestamp' of 'datetime.datetime' objects>
+           └ <class 'datetime.datetime'>
+
+AttributeError: 'datetime.timedelta' object has no attribute 'strftime'
+log time - 2022-11-26 21:12:52 | log level - ERROR | MainProcess - largest_photo | module name: main - line: 61 | message - An error has been caught in function 'largest_photo', process 'MainProcess' (11520), thread 'MainThread' (9344):
+Traceback (most recent call last):
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+           │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │         └ <code object <module> at 0x000002B80D9A9D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+           └ <function _run_code at 0x000002B80D99C550>
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+         └ <code object <module> at 0x000002B80D9A9D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy\__main__.py", line 39, in <module>
+    cli.main()
+    │   └ <function main at 0x000002B81057BCA0>
+    └ <module 'debugpy.server.cli' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\lib\\python...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+    └ <function run_file at 0x000002B81057BA60>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+    │     │        └ 'f:\\development\\netology\\coursework\\main.py'
+    │     └ <function run_path at 0x000002B8101C6D30>
+    └ <module '_pydevd_bundle.pydevd_runpy' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+           │                │     │             └ '__main__'
+           │                │     └ None
+           │                └ <code object <module> at 0x000002B8105D35B0, file "f:\development\netology\coursework\main.py", line 3>
+           └ <function _run_module_code at 0x000002B8101C69D0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+    │         │     │            └ None
+    │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+    │         └ <code object <module> at 0x000002B8105D35B0, file "f:\development\netology\coursework\main.py", line 3>
+    └ <function _run_code at 0x000002B8101C65E0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+         └ <code object <module> at 0x000002B8105D35B0, file "f:\development\netology\coursework\main.py", line 3>
+
+  File "f:\development\netology\coursework\main.py", line 68, in <module>
+    main()
+    └ <function main at 0x000002B81145AAF0>
+
+  File "f:\development\netology\coursework\main.py", line 38, in main
+    largest_photo(out_json, item=item)
+    │             │              └ {'album_id': -6, 'date': 1566146571, 'id': 457240459, 'owner_id': 52709815, 'can_comment': 1, 'post_id': 590, 'sizes': [{'hei...
+    │             └ []
+    └ <function largest_photo at 0x000002B8114601F0>
+
+> File "f:\development\netology\coursework\main.py", line 61, in largest_photo
+    'date': convert_unix_time_to_date(unix_time=item['date'])
+            │                                   └ {'album_id': -6, 'date': 1566146571, 'id': 457240459, 'owner_id': 52709815, 'can_comment': 1, 'post_id': 590, 'sizes': [{'hei...
+            └ <function convert_unix_time_to_date at 0x000002B81145AE50>
+
+  File "f:\development\netology\coursework\main.py", line 45, in convert_unix_time_to_date
+    date = datetime.utcfromtimestamp(unix_time) + timedelta(hours=time_delta).strftime('%Y-%m-%d %H-%M-%S')
+           │        │                │            │               └ 3
+           │        │                │            └ <class 'datetime.timedelta'>
+           │        │                └ 1566146571
+           │        └ <method 'utcfromtimestamp' of 'datetime.datetime' objects>
+           └ <class 'datetime.datetime'>
+
+AttributeError: 'datetime.timedelta' object has no attribute 'strftime'
+log time - 2022-11-26 21:12:52 | log level - ERROR | MainProcess - largest_photo | module name: main - line: 61 | message - An error has been caught in function 'largest_photo', process 'MainProcess' (11520), thread 'MainThread' (9344):
+Traceback (most recent call last):
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+           │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │         └ <code object <module> at 0x000002B80D9A9D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+           └ <function _run_code at 0x000002B80D99C550>
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+         └ <code object <module> at 0x000002B80D9A9D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy\__main__.py", line 39, in <module>
+    cli.main()
+    │   └ <function main at 0x000002B81057BCA0>
+    └ <module 'debugpy.server.cli' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\lib\\python...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+    └ <function run_file at 0x000002B81057BA60>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+    │     │        └ 'f:\\development\\netology\\coursework\\main.py'
+    │     └ <function run_path at 0x000002B8101C6D30>
+    └ <module '_pydevd_bundle.pydevd_runpy' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+           │                │     │             └ '__main__'
+           │                │     └ None
+           │                └ <code object <module> at 0x000002B8105D35B0, file "f:\development\netology\coursework\main.py", line 3>
+           └ <function _run_module_code at 0x000002B8101C69D0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+    │         │     │            └ None
+    │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+    │         └ <code object <module> at 0x000002B8105D35B0, file "f:\development\netology\coursework\main.py", line 3>
+    └ <function _run_code at 0x000002B8101C65E0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+         └ <code object <module> at 0x000002B8105D35B0, file "f:\development\netology\coursework\main.py", line 3>
+
+  File "f:\development\netology\coursework\main.py", line 68, in <module>
+    main()
+    └ <function main at 0x000002B81145AAF0>
+
+  File "f:\development\netology\coursework\main.py", line 38, in main
+    largest_photo(out_json, item=item)
+    │             │              └ {'album_id': -6, 'date': 1627705732, 'id': 457244379, 'owner_id': 52709815, 'can_comment': 1, 'post_id': 604, 'sizes': [{'hei...
+    │             └ [{'size': {'type': 'w', 'url': 'https://sun9-27.userapi.com/impf/c854216/v854216136/c758d/UTElrINq7o4.jpg?size=1200x1600&qual...
+    └ <function largest_photo at 0x000002B8114601F0>
+
+> File "f:\development\netology\coursework\main.py", line 61, in largest_photo
+    'date': convert_unix_time_to_date(unix_time=item['date'])
+            │                                   └ {'album_id': -6, 'date': 1627705732, 'id': 457244379, 'owner_id': 52709815, 'can_comment': 1, 'post_id': 604, 'sizes': [{'hei...
+            └ <function convert_unix_time_to_date at 0x000002B81145AE50>
+
+  File "f:\development\netology\coursework\main.py", line 45, in convert_unix_time_to_date
+    date = datetime.utcfromtimestamp(unix_time) + timedelta(hours=time_delta).strftime('%Y-%m-%d %H-%M-%S')
+           │        │                │            │               └ 3
+           │        │                │            └ <class 'datetime.timedelta'>
+           │        │                └ 1627705732
+           │        └ <method 'utcfromtimestamp' of 'datetime.datetime' objects>
+           └ <class 'datetime.datetime'>
+
+AttributeError: 'datetime.timedelta' object has no attribute 'strftime'
+log time - 2022-11-26 21:12:52 | log level - ERROR | MainProcess - largest_photo | module name: main - line: 61 | message - An error has been caught in function 'largest_photo', process 'MainProcess' (11520), thread 'MainThread' (9344):
+Traceback (most recent call last):
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+           │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │         └ <code object <module> at 0x000002B80D9A9D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+           └ <function _run_code at 0x000002B80D99C550>
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+         └ <code object <module> at 0x000002B80D9A9D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy\__main__.py", line 39, in <module>
+    cli.main()
+    │   └ <function main at 0x000002B81057BCA0>
+    └ <module 'debugpy.server.cli' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\lib\\python...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+    └ <function run_file at 0x000002B81057BA60>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+    │     │        └ 'f:\\development\\netology\\coursework\\main.py'
+    │     └ <function run_path at 0x000002B8101C6D30>
+    └ <module '_pydevd_bundle.pydevd_runpy' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+           │                │     │             └ '__main__'
+           │                │     └ None
+           │                └ <code object <module> at 0x000002B8105D35B0, file "f:\development\netology\coursework\main.py", line 3>
+           └ <function _run_module_code at 0x000002B8101C69D0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+    │         │     │            └ None
+    │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+    │         └ <code object <module> at 0x000002B8105D35B0, file "f:\development\netology\coursework\main.py", line 3>
+    └ <function _run_code at 0x000002B8101C65E0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+         └ <code object <module> at 0x000002B8105D35B0, file "f:\development\netology\coursework\main.py", line 3>
+
+  File "f:\development\netology\coursework\main.py", line 68, in <module>
+    main()
+    └ <function main at 0x000002B81145AAF0>
+
+  File "f:\development\netology\coursework\main.py", line 38, in main
+    largest_photo(out_json, item=item)
+    │             │              └ {'album_id': -6, 'date': 1627705732, 'id': 457244379, 'owner_id': 52709815, 'can_comment': 1, 'post_id': 604, 'sizes': [{'hei...
+    │             └ [{'size': {'type': 'w', 'url': 'https://sun9-27.userapi.com/impf/c854216/v854216136/c758d/UTElrINq7o4.jpg?size=1200x1600&qual...
+    └ <function largest_photo at 0x000002B8114601F0>
+
+> File "f:\development\netology\coursework\main.py", line 61, in largest_photo
+    'date': convert_unix_time_to_date(unix_time=item['date'])
+            │                                   └ {'album_id': -6, 'date': 1627705732, 'id': 457244379, 'owner_id': 52709815, 'can_comment': 1, 'post_id': 604, 'sizes': [{'hei...
+            └ <function convert_unix_time_to_date at 0x000002B81145AE50>
+
+  File "f:\development\netology\coursework\main.py", line 45, in convert_unix_time_to_date
+    date = datetime.utcfromtimestamp(unix_time) + timedelta(hours=time_delta).strftime('%Y-%m-%d %H-%M-%S')
+           │        │                │            │               └ 3
+           │        │                │            └ <class 'datetime.timedelta'>
+           │        │                └ 1627705732
+           │        └ <method 'utcfromtimestamp' of 'datetime.datetime' objects>
+           └ <class 'datetime.datetime'>
+
+AttributeError: 'datetime.timedelta' object has no attribute 'strftime'
+log time - 2022-11-26 21:12:52 | log level - ERROR | MainProcess - largest_photo | module name: main - line: 61 | message - An error has been caught in function 'largest_photo', process 'MainProcess' (11520), thread 'MainThread' (9344):
+Traceback (most recent call last):
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+           │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │         └ <code object <module> at 0x000002B80D9A9D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+           └ <function _run_code at 0x000002B80D99C550>
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+         └ <code object <module> at 0x000002B80D9A9D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy\__main__.py", line 39, in <module>
+    cli.main()
+    │   └ <function main at 0x000002B81057BCA0>
+    └ <module 'debugpy.server.cli' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\lib\\python...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+    └ <function run_file at 0x000002B81057BA60>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+    │     │        └ 'f:\\development\\netology\\coursework\\main.py'
+    │     └ <function run_path at 0x000002B8101C6D30>
+    └ <module '_pydevd_bundle.pydevd_runpy' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+           │                │     │             └ '__main__'
+           │                │     └ None
+           │                └ <code object <module> at 0x000002B8105D35B0, file "f:\development\netology\coursework\main.py", line 3>
+           └ <function _run_module_code at 0x000002B8101C69D0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+    │         │     │            └ None
+    │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+    │         └ <code object <module> at 0x000002B8105D35B0, file "f:\development\netology\coursework\main.py", line 3>
+    └ <function _run_code at 0x000002B8101C65E0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+         └ <code object <module> at 0x000002B8105D35B0, file "f:\development\netology\coursework\main.py", line 3>
+
+  File "f:\development\netology\coursework\main.py", line 68, in <module>
+    main()
+    └ <function main at 0x000002B81145AAF0>
+
+  File "f:\development\netology\coursework\main.py", line 38, in main
+    largest_photo(out_json, item=item)
+    │             │              └ {'album_id': -6, 'date': 1627705732, 'id': 457244379, 'owner_id': 52709815, 'can_comment': 1, 'post_id': 604, 'sizes': [{'hei...
+    │             └ [{'size': {'type': 'w', 'url': 'https://sun9-27.userapi.com/impf/c854216/v854216136/c758d/UTElrINq7o4.jpg?size=1200x1600&qual...
+    └ <function largest_photo at 0x000002B8114601F0>
+
+> File "f:\development\netology\coursework\main.py", line 61, in largest_photo
+    'date': convert_unix_time_to_date(unix_time=item['date'])
+            │                                   └ {'album_id': -6, 'date': 1627705732, 'id': 457244379, 'owner_id': 52709815, 'can_comment': 1, 'post_id': 604, 'sizes': [{'hei...
+            └ <function convert_unix_time_to_date at 0x000002B81145AE50>
+
+  File "f:\development\netology\coursework\main.py", line 45, in convert_unix_time_to_date
+    date = datetime.utcfromtimestamp(unix_time) + timedelta(hours=time_delta).strftime('%Y-%m-%d %H-%M-%S')
+           │        │                │            │               └ 3
+           │        │                │            └ <class 'datetime.timedelta'>
+           │        │                └ 1627705732
+           │        └ <method 'utcfromtimestamp' of 'datetime.datetime' objects>
+           └ <class 'datetime.datetime'>
+
+AttributeError: 'datetime.timedelta' object has no attribute 'strftime'
+log time - 2022-11-26 21:32:54 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'message': 'Не авторизован.', 'description': 'Unauthorized', 'error': 'UnauthorizedError'}
+log time - 2022-11-26 21:32:54 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'message': 'Не авторизован.', 'description': 'Unauthorized', 'error': 'UnauthorizedError'}
+log time - 2022-11-26 21:32:54 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'message': 'Не авторизован.', 'description': 'Unauthorized', 'error': 'UnauthorizedError'}
+log time - 2022-11-26 21:33:39 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'message': 'Не авторизован.', 'description': 'Unauthorized', 'error': 'UnauthorizedError'}
+log time - 2022-11-26 21:33:39 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'message': 'Не авторизован.', 'description': 'Unauthorized', 'error': 'UnauthorizedError'}
+log time - 2022-11-26 21:33:39 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'message': 'Не авторизован.', 'description': 'Unauthorized', 'error': 'UnauthorizedError'}
+log time - 2022-11-26 21:34:27 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'href': 'https://cloud-api.yandex.net/v1/disk/resources?path=disk%3A%2Fcoursework_26-11-2022+21_34_26', 'method': 'GET', 'templated': False}
+log time - 2022-11-26 21:34:27 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'href': 'https://cloud-api.yandex.net/v1/disk/resources?path=disk%3A%2Fcoursework_26-11-2022+21_34_26', 'method': 'GET', 'templated': False}
+log time - 2022-11-26 21:34:27 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'href': 'https://cloud-api.yandex.net/v1/disk/resources?path=disk%3A%2Fcoursework_26-11-2022+21_34_26', 'method': 'GET', 'templated': False}
+log time - 2022-11-26 21:57:32 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'href': 'https://cloud-api.yandex.net/v1/disk/resources?path=disk%3A%2Fcoursework_26-11-2022+21_57_32', 'method': 'GET', 'templated': False}
+log time - 2022-11-26 21:57:32 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'href': 'https://cloud-api.yandex.net/v1/disk/resources?path=disk%3A%2Fcoursework_26-11-2022+21_57_32', 'method': 'GET', 'templated': False}
+log time - 2022-11-26 21:57:32 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'href': 'https://cloud-api.yandex.net/v1/disk/resources?path=disk%3A%2Fcoursework_26-11-2022+21_57_32', 'method': 'GET', 'templated': False}
+log time - 2022-11-26 22:01:44 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'href': 'https://cloud-api.yandex.net/v1/disk/resources?path=disk%3A%2Fcoursework_26-11-2022+22_01_41', 'method': 'GET', 'templated': False}
+log time - 2022-11-26 22:01:44 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'href': 'https://cloud-api.yandex.net/v1/disk/resources?path=disk%3A%2Fcoursework_26-11-2022+22_01_41', 'method': 'GET', 'templated': False}
+log time - 2022-11-26 22:01:44 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'href': 'https://cloud-api.yandex.net/v1/disk/resources?path=disk%3A%2Fcoursework_26-11-2022+22_01_41', 'method': 'GET', 'templated': False}
+log time - 2022-11-26 22:03:29 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'href': 'https://cloud-api.yandex.net/v1/disk/resources?path=disk%3A%2Fcoursework_26-11-2022+22_03_28', 'method': 'GET', 'templated': False}
+log time - 2022-11-26 22:03:29 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'href': 'https://cloud-api.yandex.net/v1/disk/resources?path=disk%3A%2Fcoursework_26-11-2022+22_03_28', 'method': 'GET', 'templated': False}
+log time - 2022-11-26 22:03:29 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'href': 'https://cloud-api.yandex.net/v1/disk/resources?path=disk%3A%2Fcoursework_26-11-2022+22_03_28', 'method': 'GET', 'templated': False}
+log time - 2022-11-26 22:06:04 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'href': 'https://cloud-api.yandex.net/v1/disk/resources?path=disk%3A%2Fcoursework_26-11-2022+22_06_03', 'method': 'GET', 'templated': False}
+log time - 2022-11-26 22:06:04 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'href': 'https://cloud-api.yandex.net/v1/disk/resources?path=disk%3A%2Fcoursework_26-11-2022+22_06_03', 'method': 'GET', 'templated': False}
+log time - 2022-11-26 22:06:04 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'href': 'https://cloud-api.yandex.net/v1/disk/resources?path=disk%3A%2Fcoursework_26-11-2022+22_06_03', 'method': 'GET', 'templated': False}
+log time - 2022-11-26 22:06:11 | log level - ERROR | MainProcess - yandex | module name: main - line: 60 | message - An error has been caught in function 'yandex', process 'MainProcess' (8064), thread 'MainThread' (8056):
+Traceback (most recent call last):
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+           │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │         └ <code object <module> at 0x00000280BAB19D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+           └ <function _run_code at 0x00000280BAB0C550>
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+         └ <code object <module> at 0x00000280BAB19D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy\__main__.py", line 39, in <module>
+    cli.main()
+    │   └ <function main at 0x00000280BD6ABCA0>
+    └ <module 'debugpy.server.cli' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\lib\\python...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+    └ <function run_file at 0x00000280BD6ABA60>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+    │     │        └ 'f:\\development\\netology\\coursework\\main.py'
+    │     └ <function run_path at 0x00000280BD2F6D30>
+    └ <module '_pydevd_bundle.pydevd_runpy' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+           │                │     │             └ '__main__'
+           │                │     └ None
+           │                └ <code object <module> at 0x00000280BD706A80, file "f:\development\netology\coursework\main.py", line 3>
+           └ <function _run_module_code at 0x00000280BD2F69D0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+    │         │     │            └ None
+    │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+    │         └ <code object <module> at 0x00000280BD706A80, file "f:\development\netology\coursework\main.py", line 3>
+    └ <function _run_code at 0x00000280BD2F65E0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+         └ <code object <module> at 0x00000280BD706A80, file "f:\development\netology\coursework\main.py", line 3>
+
+  File "f:\development\netology\coursework\main.py", line 89, in <module>
+    main()
+    └ <function main at 0x00000280BE58AD30>
+
+  File "f:\development\netology\coursework\main.py", line 20, in main
+    result = yandex(yandex_token, vk_result)
+             │      │             └ [{'size': {'type': 'w', 'url': 'https://sun9-27.userapi.com/impf/c854216/v854216136/c758d/UTElrINq7o4.jpg?size=1200x1600&qual...
+             │      └ 'y0_AgAAAAAcpw7PAADLWwAAAADUNO6cIDifi2iyRgqpoDj65cCAPuSUoEk'
+             └ <function yandex at 0x00000280BE58F430>
+
+> File "f:\development\netology\coursework\main.py", line 60, in yandex
+    yandex.upload(file_path=f'{path}/{file_name}.jpg', url_image=item['size']['url'])
+    │      │                                                     └ {'size': {'type': 'w', 'url': 'https://sun9-27.userapi.com/impf/c854216/v854216136/c758d/UTElrINq7o4.jpg?size=1200x1600&quali...
+    │      └ <function Yandex_Uploader.upload at 0x00000280BE58A8B0>
+    └ <scripts.yandex_upload.Yandex_Uploader object at 0x00000280BE589160>
+
+  File "f:\development\netology\coursework\scripts\yandex_upload.py", line 31, in upload
+    requests.put(response['href'], files={'file': image})
+    │        │   │                                └ <Response [200]>
+    │        │   └ {'operation_id': '4e764b33c1ff129f3e0dc47c7dace452d60965e42454f944ab1d970329bd2d91', 'href': 'https://uploader19j.disk.yandex...
+    │        └ <function put at 0x00000280BD9D9AF0>
+    └ <module 'requests' from 'C:\\Users\\User\\AppData\\Roaming\\Python\\Python38\\site-packages\\requests\\__init__.py'>
+
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\api.py", line 132, in put
+    return request('put', url, data=data, **kwargs)
+           │              │         │       └ {'files': {'file': <Response [200]>}}
+           │              │         └ None
+           │              └ 'https://uploader19j.disk.yandex.net:443/upload-target/20221126T220611.905.utd.d48haadalvrhlxjuwrnl82mix-k19j.4703877'
+           └ <function request at 0x00000280BD99E940>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+           │       │              │           │      └ {'data': None, 'files': {'file': <Response [200]>}}
+           │       │              │           └ 'https://uploader19j.disk.yandex.net:443/upload-target/20221126T220611.905.utd.d48haadalvrhlxjuwrnl82mix-k19j.4703877'
+           │       │              └ 'put'
+           │       └ <function Session.request at 0x00000280BD9D9040>
+           └ <requests.sessions.Session object at 0x00000280BE5FCF70>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\sessions.py", line 515, in request
+    prep = self.prepare_request(req)
+           │    │               └ <Request [PUT]>
+           │    └ <function Session.prepare_request at 0x00000280BD9D3F70>
+           └ <requests.sessions.Session object at 0x00000280BE5FCF70>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\sessions.py", line 443, in prepare_request
+    p.prepare(
+    │ └ <function PreparedRequest.prepare at 0x00000280BD9B3DC0>
+    └ <PreparedRequest [PUT]>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\models.py", line 321, in prepare
+    self.prepare_body(data, files, json)
+    │    │            │     │      └ None
+    │    │            │     └ {'file': <Response [200]>}
+    │    │            └ {}
+    │    └ <function PreparedRequest.prepare_body at 0x00000280BD9BB1F0>
+    └ <PreparedRequest [PUT]>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\models.py", line 514, in prepare_body
+    (body, content_type) = self._encode_files(files, data)
+     │     │               │    │             │      └ {}
+     │     │               │    │             └ {'file': <Response [200]>}
+     │     │               │    └ <staticmethod object at 0x00000280BD9A5730>
+     │     │               └ <PreparedRequest [PUT]>
+     │     └ None
+     └ None
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\models.py", line 171, in _encode_files
+    body, content_type = encode_multipart_formdata(new_fields)
+                         │                         └ [<urllib3.fields.RequestField object at 0x00000280BE5FC1C0>]
+                         └ <function encode_multipart_formdata at 0x00000280BD846040>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\urllib3\filepost.py", line 90, in encode_multipart_formdata
+    body.write(data)
+    │    │     └ <Response [200]>
+    │    └ <method 'write' of '_io.BytesIO' objects>
+    └ <_io.BytesIO object at 0x00000280BE620680>
+
+TypeError: a bytes-like object is required, not 'Response'
+log time - 2022-11-26 22:06:11 | log level - ERROR | MainProcess - yandex | module name: main - line: 60 | message - An error has been caught in function 'yandex', process 'MainProcess' (8064), thread 'MainThread' (8056):
+Traceback (most recent call last):
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+           │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │         └ <code object <module> at 0x00000280BAB19D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+           └ <function _run_code at 0x00000280BAB0C550>
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+         └ <code object <module> at 0x00000280BAB19D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy\__main__.py", line 39, in <module>
+    cli.main()
+    │   └ <function main at 0x00000280BD6ABCA0>
+    └ <module 'debugpy.server.cli' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\lib\\python...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+    └ <function run_file at 0x00000280BD6ABA60>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+    │     │        └ 'f:\\development\\netology\\coursework\\main.py'
+    │     └ <function run_path at 0x00000280BD2F6D30>
+    └ <module '_pydevd_bundle.pydevd_runpy' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+           │                │     │             └ '__main__'
+           │                │     └ None
+           │                └ <code object <module> at 0x00000280BD706A80, file "f:\development\netology\coursework\main.py", line 3>
+           └ <function _run_module_code at 0x00000280BD2F69D0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+    │         │     │            └ None
+    │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+    │         └ <code object <module> at 0x00000280BD706A80, file "f:\development\netology\coursework\main.py", line 3>
+    └ <function _run_code at 0x00000280BD2F65E0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+         └ <code object <module> at 0x00000280BD706A80, file "f:\development\netology\coursework\main.py", line 3>
+
+  File "f:\development\netology\coursework\main.py", line 89, in <module>
+    main()
+    └ <function main at 0x00000280BE58AD30>
+
+  File "f:\development\netology\coursework\main.py", line 20, in main
+    result = yandex(yandex_token, vk_result)
+             │      │             └ [{'size': {'type': 'w', 'url': 'https://sun9-27.userapi.com/impf/c854216/v854216136/c758d/UTElrINq7o4.jpg?size=1200x1600&qual...
+             │      └ 'y0_AgAAAAAcpw7PAADLWwAAAADUNO6cIDifi2iyRgqpoDj65cCAPuSUoEk'
+             └ <function yandex at 0x00000280BE58F430>
+
+> File "f:\development\netology\coursework\main.py", line 60, in yandex
+    yandex.upload(file_path=f'{path}/{file_name}.jpg', url_image=item['size']['url'])
+    │      │                                                     └ {'size': {'type': 'w', 'url': 'https://sun9-27.userapi.com/impf/c854216/v854216136/c758d/UTElrINq7o4.jpg?size=1200x1600&quali...
+    │      └ <function Yandex_Uploader.upload at 0x00000280BE58A8B0>
+    └ <scripts.yandex_upload.Yandex_Uploader object at 0x00000280BE589160>
+
+  File "f:\development\netology\coursework\scripts\yandex_upload.py", line 31, in upload
+    requests.put(response['href'], files={'file': image})
+    │        │   │                                └ <Response [200]>
+    │        │   └ {'operation_id': '4e764b33c1ff129f3e0dc47c7dace452d60965e42454f944ab1d970329bd2d91', 'href': 'https://uploader19j.disk.yandex...
+    │        └ <function put at 0x00000280BD9D9AF0>
+    └ <module 'requests' from 'C:\\Users\\User\\AppData\\Roaming\\Python\\Python38\\site-packages\\requests\\__init__.py'>
+
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\api.py", line 132, in put
+    return request('put', url, data=data, **kwargs)
+           │              │         │       └ {'files': {'file': <Response [200]>}}
+           │              │         └ None
+           │              └ 'https://uploader19j.disk.yandex.net:443/upload-target/20221126T220611.905.utd.d48haadalvrhlxjuwrnl82mix-k19j.4703877'
+           └ <function request at 0x00000280BD99E940>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+           │       │              │           │      └ {'data': None, 'files': {'file': <Response [200]>}}
+           │       │              │           └ 'https://uploader19j.disk.yandex.net:443/upload-target/20221126T220611.905.utd.d48haadalvrhlxjuwrnl82mix-k19j.4703877'
+           │       │              └ 'put'
+           │       └ <function Session.request at 0x00000280BD9D9040>
+           └ <requests.sessions.Session object at 0x00000280BE5FCF70>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\sessions.py", line 515, in request
+    prep = self.prepare_request(req)
+           │    │               └ <Request [PUT]>
+           │    └ <function Session.prepare_request at 0x00000280BD9D3F70>
+           └ <requests.sessions.Session object at 0x00000280BE5FCF70>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\sessions.py", line 443, in prepare_request
+    p.prepare(
+    │ └ <function PreparedRequest.prepare at 0x00000280BD9B3DC0>
+    └ <PreparedRequest [PUT]>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\models.py", line 321, in prepare
+    self.prepare_body(data, files, json)
+    │    │            │     │      └ None
+    │    │            │     └ {'file': <Response [200]>}
+    │    │            └ {}
+    │    └ <function PreparedRequest.prepare_body at 0x00000280BD9BB1F0>
+    └ <PreparedRequest [PUT]>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\models.py", line 514, in prepare_body
+    (body, content_type) = self._encode_files(files, data)
+     │     │               │    │             │      └ {}
+     │     │               │    │             └ {'file': <Response [200]>}
+     │     │               │    └ <staticmethod object at 0x00000280BD9A5730>
+     │     │               └ <PreparedRequest [PUT]>
+     │     └ None
+     └ None
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\models.py", line 171, in _encode_files
+    body, content_type = encode_multipart_formdata(new_fields)
+                         │                         └ [<urllib3.fields.RequestField object at 0x00000280BE5FC1C0>]
+                         └ <function encode_multipart_formdata at 0x00000280BD846040>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\urllib3\filepost.py", line 90, in encode_multipart_formdata
+    body.write(data)
+    │    │     └ <Response [200]>
+    │    └ <method 'write' of '_io.BytesIO' objects>
+    └ <_io.BytesIO object at 0x00000280BE620680>
+
+TypeError: a bytes-like object is required, not 'Response'
+log time - 2022-11-26 22:06:11 | log level - ERROR | MainProcess - yandex | module name: main - line: 60 | message - An error has been caught in function 'yandex', process 'MainProcess' (8064), thread 'MainThread' (8056):
+Traceback (most recent call last):
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+           │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │         └ <code object <module> at 0x00000280BAB19D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+           └ <function _run_code at 0x00000280BAB0C550>
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+         └ <code object <module> at 0x00000280BAB19D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy\__main__.py", line 39, in <module>
+    cli.main()
+    │   └ <function main at 0x00000280BD6ABCA0>
+    └ <module 'debugpy.server.cli' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\lib\\python...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+    └ <function run_file at 0x00000280BD6ABA60>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+    │     │        └ 'f:\\development\\netology\\coursework\\main.py'
+    │     └ <function run_path at 0x00000280BD2F6D30>
+    └ <module '_pydevd_bundle.pydevd_runpy' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+           │                │     │             └ '__main__'
+           │                │     └ None
+           │                └ <code object <module> at 0x00000280BD706A80, file "f:\development\netology\coursework\main.py", line 3>
+           └ <function _run_module_code at 0x00000280BD2F69D0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+    │         │     │            └ None
+    │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+    │         └ <code object <module> at 0x00000280BD706A80, file "f:\development\netology\coursework\main.py", line 3>
+    └ <function _run_code at 0x00000280BD2F65E0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+         └ <code object <module> at 0x00000280BD706A80, file "f:\development\netology\coursework\main.py", line 3>
+
+  File "f:\development\netology\coursework\main.py", line 89, in <module>
+    main()
+    └ <function main at 0x00000280BE58AD30>
+
+  File "f:\development\netology\coursework\main.py", line 20, in main
+    result = yandex(yandex_token, vk_result)
+             │      │             └ [{'size': {'type': 'w', 'url': 'https://sun9-27.userapi.com/impf/c854216/v854216136/c758d/UTElrINq7o4.jpg?size=1200x1600&qual...
+             │      └ 'y0_AgAAAAAcpw7PAADLWwAAAADUNO6cIDifi2iyRgqpoDj65cCAPuSUoEk'
+             └ <function yandex at 0x00000280BE58F430>
+
+> File "f:\development\netology\coursework\main.py", line 60, in yandex
+    yandex.upload(file_path=f'{path}/{file_name}.jpg', url_image=item['size']['url'])
+    │      │                                                     └ {'size': {'type': 'w', 'url': 'https://sun9-27.userapi.com/impf/c854216/v854216136/c758d/UTElrINq7o4.jpg?size=1200x1600&quali...
+    │      └ <function Yandex_Uploader.upload at 0x00000280BE58A8B0>
+    └ <scripts.yandex_upload.Yandex_Uploader object at 0x00000280BE589160>
+
+  File "f:\development\netology\coursework\scripts\yandex_upload.py", line 31, in upload
+    requests.put(response['href'], files={'file': image})
+    │        │   │                                └ <Response [200]>
+    │        │   └ {'operation_id': '4e764b33c1ff129f3e0dc47c7dace452d60965e42454f944ab1d970329bd2d91', 'href': 'https://uploader19j.disk.yandex...
+    │        └ <function put at 0x00000280BD9D9AF0>
+    └ <module 'requests' from 'C:\\Users\\User\\AppData\\Roaming\\Python\\Python38\\site-packages\\requests\\__init__.py'>
+
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\api.py", line 132, in put
+    return request('put', url, data=data, **kwargs)
+           │              │         │       └ {'files': {'file': <Response [200]>}}
+           │              │         └ None
+           │              └ 'https://uploader19j.disk.yandex.net:443/upload-target/20221126T220611.905.utd.d48haadalvrhlxjuwrnl82mix-k19j.4703877'
+           └ <function request at 0x00000280BD99E940>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+           │       │              │           │      └ {'data': None, 'files': {'file': <Response [200]>}}
+           │       │              │           └ 'https://uploader19j.disk.yandex.net:443/upload-target/20221126T220611.905.utd.d48haadalvrhlxjuwrnl82mix-k19j.4703877'
+           │       │              └ 'put'
+           │       └ <function Session.request at 0x00000280BD9D9040>
+           └ <requests.sessions.Session object at 0x00000280BE5FCF70>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\sessions.py", line 515, in request
+    prep = self.prepare_request(req)
+           │    │               └ <Request [PUT]>
+           │    └ <function Session.prepare_request at 0x00000280BD9D3F70>
+           └ <requests.sessions.Session object at 0x00000280BE5FCF70>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\sessions.py", line 443, in prepare_request
+    p.prepare(
+    │ └ <function PreparedRequest.prepare at 0x00000280BD9B3DC0>
+    └ <PreparedRequest [PUT]>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\models.py", line 321, in prepare
+    self.prepare_body(data, files, json)
+    │    │            │     │      └ None
+    │    │            │     └ {'file': <Response [200]>}
+    │    │            └ {}
+    │    └ <function PreparedRequest.prepare_body at 0x00000280BD9BB1F0>
+    └ <PreparedRequest [PUT]>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\models.py", line 514, in prepare_body
+    (body, content_type) = self._encode_files(files, data)
+     │     │               │    │             │      └ {}
+     │     │               │    │             └ {'file': <Response [200]>}
+     │     │               │    └ <staticmethod object at 0x00000280BD9A5730>
+     │     │               └ <PreparedRequest [PUT]>
+     │     └ None
+     └ None
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\models.py", line 171, in _encode_files
+    body, content_type = encode_multipart_formdata(new_fields)
+                         │                         └ [<urllib3.fields.RequestField object at 0x00000280BE5FC1C0>]
+                         └ <function encode_multipart_formdata at 0x00000280BD846040>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\urllib3\filepost.py", line 90, in encode_multipart_formdata
+    body.write(data)
+    │    │     └ <Response [200]>
+    │    └ <method 'write' of '_io.BytesIO' objects>
+    └ <_io.BytesIO object at 0x00000280BE620680>
+
+TypeError: a bytes-like object is required, not 'Response'
+log time - 2022-11-26 22:06:17 | log level - ERROR | MainProcess - yandex | module name: main - line: 60 | message - An error has been caught in function 'yandex', process 'MainProcess' (8064), thread 'MainThread' (8056):
+Traceback (most recent call last):
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+           │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │         └ <code object <module> at 0x00000280BAB19D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+           └ <function _run_code at 0x00000280BAB0C550>
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+         └ <code object <module> at 0x00000280BAB19D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy\__main__.py", line 39, in <module>
+    cli.main()
+    │   └ <function main at 0x00000280BD6ABCA0>
+    └ <module 'debugpy.server.cli' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\lib\\python...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+    └ <function run_file at 0x00000280BD6ABA60>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+    │     │        └ 'f:\\development\\netology\\coursework\\main.py'
+    │     └ <function run_path at 0x00000280BD2F6D30>
+    └ <module '_pydevd_bundle.pydevd_runpy' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+           │                │     │             └ '__main__'
+           │                │     └ None
+           │                └ <code object <module> at 0x00000280BD706A80, file "f:\development\netology\coursework\main.py", line 3>
+           └ <function _run_module_code at 0x00000280BD2F69D0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+    │         │     │            └ None
+    │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+    │         └ <code object <module> at 0x00000280BD706A80, file "f:\development\netology\coursework\main.py", line 3>
+    └ <function _run_code at 0x00000280BD2F65E0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+         └ <code object <module> at 0x00000280BD706A80, file "f:\development\netology\coursework\main.py", line 3>
+
+  File "f:\development\netology\coursework\main.py", line 89, in <module>
+    main()
+    └ <function main at 0x00000280BE58AD30>
+
+  File "f:\development\netology\coursework\main.py", line 20, in main
+    result = yandex(yandex_token, vk_result)
+             │      │             └ [{'size': {'type': 'w', 'url': 'https://sun9-27.userapi.com/impf/c854216/v854216136/c758d/UTElrINq7o4.jpg?size=1200x1600&qual...
+             │      └ 'y0_AgAAAAAcpw7PAADLWwAAAADUNO6cIDifi2iyRgqpoDj65cCAPuSUoEk'
+             └ <function yandex at 0x00000280BE58F430>
+
+> File "f:\development\netology\coursework\main.py", line 60, in yandex
+    yandex.upload(file_path=f'{path}/{file_name}.jpg', url_image=item['size']['url'])
+    │      │                                                     └ {'size': {'type': 'z', 'url': 'https://sun9-28.userapi.com/impg/X70uQJys3Ul0uCQS2lJ3yPROmgARO8FJDp-sjw/XV3PLUFQDb4.jpg?size=7...
+    │      └ <function Yandex_Uploader.upload at 0x00000280BE58A8B0>
+    └ <scripts.yandex_upload.Yandex_Uploader object at 0x00000280BE589160>
+
+  File "f:\development\netology\coursework\scripts\yandex_upload.py", line 31, in upload
+    requests.put(response['href'], files={'file': image})
+    │        │   │                                └ <Response [200]>
+    │        │   └ {'operation_id': '85af88069762b5ef773faf6e00d2e7b2c3698392c38f6b77249131c533b02224', 'href': 'https://uploader22g.disk.yandex...
+    │        └ <function put at 0x00000280BD9D9AF0>
+    └ <module 'requests' from 'C:\\Users\\User\\AppData\\Roaming\\Python\\Python38\\site-packages\\requests\\__init__.py'>
+
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\api.py", line 132, in put
+    return request('put', url, data=data, **kwargs)
+           │              │         │       └ {'files': {'file': <Response [200]>}}
+           │              │         └ None
+           │              └ 'https://uploader22g.disk.yandex.net:443/upload-target/20221126T220618.819.utd.2rsoxxxehfdwlfiums9nm929p-k22g.12576302'
+           └ <function request at 0x00000280BD99E940>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+           │       │              │           │      └ {'data': None, 'files': {'file': <Response [200]>}}
+           │       │              │           └ 'https://uploader22g.disk.yandex.net:443/upload-target/20221126T220618.819.utd.2rsoxxxehfdwlfiums9nm929p-k22g.12576302'
+           │       │              └ 'put'
+           │       └ <function Session.request at 0x00000280BD9D9040>
+           └ <requests.sessions.Session object at 0x00000280BD6E5520>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\sessions.py", line 515, in request
+    prep = self.prepare_request(req)
+           │    │               └ <Request [PUT]>
+           │    └ <function Session.prepare_request at 0x00000280BD9D3F70>
+           └ <requests.sessions.Session object at 0x00000280BD6E5520>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\sessions.py", line 443, in prepare_request
+    p.prepare(
+    │ └ <function PreparedRequest.prepare at 0x00000280BD9B3DC0>
+    └ <PreparedRequest [PUT]>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\models.py", line 321, in prepare
+    self.prepare_body(data, files, json)
+    │    │            │     │      └ None
+    │    │            │     └ {'file': <Response [200]>}
+    │    │            └ {}
+    │    └ <function PreparedRequest.prepare_body at 0x00000280BD9BB1F0>
+    └ <PreparedRequest [PUT]>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\models.py", line 514, in prepare_body
+    (body, content_type) = self._encode_files(files, data)
+     │     │               │    │             │      └ {}
+     │     │               │    │             └ {'file': <Response [200]>}
+     │     │               │    └ <staticmethod object at 0x00000280BD9A5730>
+     │     │               └ <PreparedRequest [PUT]>
+     │     └ None
+     └ None
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\models.py", line 171, in _encode_files
+    body, content_type = encode_multipart_formdata(new_fields)
+                         │                         └ [<urllib3.fields.RequestField object at 0x00000280BE698280>]
+                         └ <function encode_multipart_formdata at 0x00000280BD846040>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\urllib3\filepost.py", line 90, in encode_multipart_formdata
+    body.write(data)
+    │    │     └ <Response [200]>
+    │    └ <method 'write' of '_io.BytesIO' objects>
+    └ <_io.BytesIO object at 0x00000280BE68FF40>
+
+TypeError: a bytes-like object is required, not 'Response'
+log time - 2022-11-26 22:06:17 | log level - ERROR | MainProcess - yandex | module name: main - line: 60 | message - An error has been caught in function 'yandex', process 'MainProcess' (8064), thread 'MainThread' (8056):
+Traceback (most recent call last):
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+           │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │         └ <code object <module> at 0x00000280BAB19D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+           └ <function _run_code at 0x00000280BAB0C550>
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+         └ <code object <module> at 0x00000280BAB19D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy\__main__.py", line 39, in <module>
+    cli.main()
+    │   └ <function main at 0x00000280BD6ABCA0>
+    └ <module 'debugpy.server.cli' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\lib\\python...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+    └ <function run_file at 0x00000280BD6ABA60>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+    │     │        └ 'f:\\development\\netology\\coursework\\main.py'
+    │     └ <function run_path at 0x00000280BD2F6D30>
+    └ <module '_pydevd_bundle.pydevd_runpy' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+           │                │     │             └ '__main__'
+           │                │     └ None
+           │                └ <code object <module> at 0x00000280BD706A80, file "f:\development\netology\coursework\main.py", line 3>
+           └ <function _run_module_code at 0x00000280BD2F69D0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+    │         │     │            └ None
+    │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+    │         └ <code object <module> at 0x00000280BD706A80, file "f:\development\netology\coursework\main.py", line 3>
+    └ <function _run_code at 0x00000280BD2F65E0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+         └ <code object <module> at 0x00000280BD706A80, file "f:\development\netology\coursework\main.py", line 3>
+
+  File "f:\development\netology\coursework\main.py", line 89, in <module>
+    main()
+    └ <function main at 0x00000280BE58AD30>
+
+  File "f:\development\netology\coursework\main.py", line 20, in main
+    result = yandex(yandex_token, vk_result)
+             │      │             └ [{'size': {'type': 'w', 'url': 'https://sun9-27.userapi.com/impf/c854216/v854216136/c758d/UTElrINq7o4.jpg?size=1200x1600&qual...
+             │      └ 'y0_AgAAAAAcpw7PAADLWwAAAADUNO6cIDifi2iyRgqpoDj65cCAPuSUoEk'
+             └ <function yandex at 0x00000280BE58F430>
+
+> File "f:\development\netology\coursework\main.py", line 60, in yandex
+    yandex.upload(file_path=f'{path}/{file_name}.jpg', url_image=item['size']['url'])
+    │      │                                                     └ {'size': {'type': 'z', 'url': 'https://sun9-28.userapi.com/impg/X70uQJys3Ul0uCQS2lJ3yPROmgARO8FJDp-sjw/XV3PLUFQDb4.jpg?size=7...
+    │      └ <function Yandex_Uploader.upload at 0x00000280BE58A8B0>
+    └ <scripts.yandex_upload.Yandex_Uploader object at 0x00000280BE589160>
+
+  File "f:\development\netology\coursework\scripts\yandex_upload.py", line 31, in upload
+    requests.put(response['href'], files={'file': image})
+    │        │   │                                └ <Response [200]>
+    │        │   └ {'operation_id': '85af88069762b5ef773faf6e00d2e7b2c3698392c38f6b77249131c533b02224', 'href': 'https://uploader22g.disk.yandex...
+    │        └ <function put at 0x00000280BD9D9AF0>
+    └ <module 'requests' from 'C:\\Users\\User\\AppData\\Roaming\\Python\\Python38\\site-packages\\requests\\__init__.py'>
+
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\api.py", line 132, in put
+    return request('put', url, data=data, **kwargs)
+           │              │         │       └ {'files': {'file': <Response [200]>}}
+           │              │         └ None
+           │              └ 'https://uploader22g.disk.yandex.net:443/upload-target/20221126T220618.819.utd.2rsoxxxehfdwlfiums9nm929p-k22g.12576302'
+           └ <function request at 0x00000280BD99E940>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+           │       │              │           │      └ {'data': None, 'files': {'file': <Response [200]>}}
+           │       │              │           └ 'https://uploader22g.disk.yandex.net:443/upload-target/20221126T220618.819.utd.2rsoxxxehfdwlfiums9nm929p-k22g.12576302'
+           │       │              └ 'put'
+           │       └ <function Session.request at 0x00000280BD9D9040>
+           └ <requests.sessions.Session object at 0x00000280BD6E5520>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\sessions.py", line 515, in request
+    prep = self.prepare_request(req)
+           │    │               └ <Request [PUT]>
+           │    └ <function Session.prepare_request at 0x00000280BD9D3F70>
+           └ <requests.sessions.Session object at 0x00000280BD6E5520>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\sessions.py", line 443, in prepare_request
+    p.prepare(
+    │ └ <function PreparedRequest.prepare at 0x00000280BD9B3DC0>
+    └ <PreparedRequest [PUT]>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\models.py", line 321, in prepare
+    self.prepare_body(data, files, json)
+    │    │            │     │      └ None
+    │    │            │     └ {'file': <Response [200]>}
+    │    │            └ {}
+    │    └ <function PreparedRequest.prepare_body at 0x00000280BD9BB1F0>
+    └ <PreparedRequest [PUT]>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\models.py", line 514, in prepare_body
+    (body, content_type) = self._encode_files(files, data)
+     │     │               │    │             │      └ {}
+     │     │               │    │             └ {'file': <Response [200]>}
+     │     │               │    └ <staticmethod object at 0x00000280BD9A5730>
+     │     │               └ <PreparedRequest [PUT]>
+     │     └ None
+     └ None
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\models.py", line 171, in _encode_files
+    body, content_type = encode_multipart_formdata(new_fields)
+                         │                         └ [<urllib3.fields.RequestField object at 0x00000280BE698280>]
+                         └ <function encode_multipart_formdata at 0x00000280BD846040>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\urllib3\filepost.py", line 90, in encode_multipart_formdata
+    body.write(data)
+    │    │     └ <Response [200]>
+    │    └ <method 'write' of '_io.BytesIO' objects>
+    └ <_io.BytesIO object at 0x00000280BE68FF40>
+
+TypeError: a bytes-like object is required, not 'Response'
+log time - 2022-11-26 22:06:17 | log level - ERROR | MainProcess - yandex | module name: main - line: 60 | message - An error has been caught in function 'yandex', process 'MainProcess' (8064), thread 'MainThread' (8056):
+Traceback (most recent call last):
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+           │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+           │         └ <code object <module> at 0x00000280BAB19D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+           └ <function _run_code at 0x00000280BAB0C550>
+
+  File "C:\Program Files\Python38\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+         └ <code object <module> at 0x00000280BAB19D40, file "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy\__main__.py", line 39, in <module>
+    cli.main()
+    │   └ <function main at 0x00000280BD6ABCA0>
+    └ <module 'debugpy.server.cli' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\lib\\python...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 430, in main
+    run()
+    └ <function run_file at 0x00000280BD6ABA60>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\adapter/../..\debugpy\launcher/../..\debugpy/..\debugpy\server\cli.py", line 284, in run_file
+    runpy.run_path(target, run_name="__main__")
+    │     │        └ 'f:\\development\\netology\\coursework\\main.py'
+    │     └ <function run_path at 0x00000280BD2F6D30>
+    └ <module '_pydevd_bundle.pydevd_runpy' from 'c:\\Users\\User\\.vscode\\extensions\\ms-python.python-2022.18.2\\pythonFiles\\li...
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 321, in run_path
+    return _run_module_code(code, init_globals, run_name,
+           │                │     │             └ '__main__'
+           │                │     └ None
+           │                └ <code object <module> at 0x00000280BD706A80, file "f:\development\netology\coursework\main.py", line 3>
+           └ <function _run_module_code at 0x00000280BD2F69D0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 135, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+    │         │     │            └ None
+    │         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+    │         └ <code object <module> at 0x00000280BD706A80, file "f:\development\netology\coursework\main.py", line 3>
+    └ <function _run_code at 0x00000280BD2F65E0>
+
+  File "c:\Users\User\.vscode\extensions\ms-python.python-2022.18.2\pythonFiles\lib\python\debugpy\_vendored\pydevd\_pydevd_bundle\pydevd_runpy.py", line 124, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': 'f:\\developme...
+         └ <code object <module> at 0x00000280BD706A80, file "f:\development\netology\coursework\main.py", line 3>
+
+  File "f:\development\netology\coursework\main.py", line 89, in <module>
+    main()
+    └ <function main at 0x00000280BE58AD30>
+
+  File "f:\development\netology\coursework\main.py", line 20, in main
+    result = yandex(yandex_token, vk_result)
+             │      │             └ [{'size': {'type': 'w', 'url': 'https://sun9-27.userapi.com/impf/c854216/v854216136/c758d/UTElrINq7o4.jpg?size=1200x1600&qual...
+             │      └ 'y0_AgAAAAAcpw7PAADLWwAAAADUNO6cIDifi2iyRgqpoDj65cCAPuSUoEk'
+             └ <function yandex at 0x00000280BE58F430>
+
+> File "f:\development\netology\coursework\main.py", line 60, in yandex
+    yandex.upload(file_path=f'{path}/{file_name}.jpg', url_image=item['size']['url'])
+    │      │                                                     └ {'size': {'type': 'z', 'url': 'https://sun9-28.userapi.com/impg/X70uQJys3Ul0uCQS2lJ3yPROmgARO8FJDp-sjw/XV3PLUFQDb4.jpg?size=7...
+    │      └ <function Yandex_Uploader.upload at 0x00000280BE58A8B0>
+    └ <scripts.yandex_upload.Yandex_Uploader object at 0x00000280BE589160>
+
+  File "f:\development\netology\coursework\scripts\yandex_upload.py", line 31, in upload
+    requests.put(response['href'], files={'file': image})
+    │        │   │                                └ <Response [200]>
+    │        │   └ {'operation_id': '85af88069762b5ef773faf6e00d2e7b2c3698392c38f6b77249131c533b02224', 'href': 'https://uploader22g.disk.yandex...
+    │        └ <function put at 0x00000280BD9D9AF0>
+    └ <module 'requests' from 'C:\\Users\\User\\AppData\\Roaming\\Python\\Python38\\site-packages\\requests\\__init__.py'>
+
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\api.py", line 132, in put
+    return request('put', url, data=data, **kwargs)
+           │              │         │       └ {'files': {'file': <Response [200]>}}
+           │              │         └ None
+           │              └ 'https://uploader22g.disk.yandex.net:443/upload-target/20221126T220618.819.utd.2rsoxxxehfdwlfiums9nm929p-k22g.12576302'
+           └ <function request at 0x00000280BD99E940>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+           │       │              │           │      └ {'data': None, 'files': {'file': <Response [200]>}}
+           │       │              │           └ 'https://uploader22g.disk.yandex.net:443/upload-target/20221126T220618.819.utd.2rsoxxxehfdwlfiums9nm929p-k22g.12576302'
+           │       │              └ 'put'
+           │       └ <function Session.request at 0x00000280BD9D9040>
+           └ <requests.sessions.Session object at 0x00000280BD6E5520>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\sessions.py", line 515, in request
+    prep = self.prepare_request(req)
+           │    │               └ <Request [PUT]>
+           │    └ <function Session.prepare_request at 0x00000280BD9D3F70>
+           └ <requests.sessions.Session object at 0x00000280BD6E5520>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\sessions.py", line 443, in prepare_request
+    p.prepare(
+    │ └ <function PreparedRequest.prepare at 0x00000280BD9B3DC0>
+    └ <PreparedRequest [PUT]>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\models.py", line 321, in prepare
+    self.prepare_body(data, files, json)
+    │    │            │     │      └ None
+    │    │            │     └ {'file': <Response [200]>}
+    │    │            └ {}
+    │    └ <function PreparedRequest.prepare_body at 0x00000280BD9BB1F0>
+    └ <PreparedRequest [PUT]>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\models.py", line 514, in prepare_body
+    (body, content_type) = self._encode_files(files, data)
+     │     │               │    │             │      └ {}
+     │     │               │    │             └ {'file': <Response [200]>}
+     │     │               │    └ <staticmethod object at 0x00000280BD9A5730>
+     │     │               └ <PreparedRequest [PUT]>
+     │     └ None
+     └ None
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\requests\models.py", line 171, in _encode_files
+    body, content_type = encode_multipart_formdata(new_fields)
+                         │                         └ [<urllib3.fields.RequestField object at 0x00000280BE698280>]
+                         └ <function encode_multipart_formdata at 0x00000280BD846040>
+  File "C:\Users\User\AppData\Roaming\Python\Python38\site-packages\urllib3\filepost.py", line 90, in encode_multipart_formdata
+    body.write(data)
+    │    │     └ <Response [200]>
+    │    └ <method 'write' of '_io.BytesIO' objects>
+    └ <_io.BytesIO object at 0x00000280BE68FF40>
+
+TypeError: a bytes-like object is required, not 'Response'
+log time - 2022-11-26 22:08:20 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'href': 'https://cloud-api.yandex.net/v1/disk/resources?path=disk%3A%2Fcoursework_26-11-2022+22_08_19', 'method': 'GET', 'templated': False}
+log time - 2022-11-26 22:08:20 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'href': 'https://cloud-api.yandex.net/v1/disk/resources?path=disk%3A%2Fcoursework_26-11-2022+22_08_19', 'method': 'GET', 'templated': False}
+log time - 2022-11-26 22:08:20 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'href': 'https://cloud-api.yandex.net/v1/disk/resources?path=disk%3A%2Fcoursework_26-11-2022+22_08_19', 'method': 'GET', 'templated': False}
+log time - 2022-11-26 22:09:00 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'href': 'https://cloud-api.yandex.net/v1/disk/resources?path=disk%3A%2Fcoursework_26-11-2022+22_08_59', 'method': 'GET', 'templated': False}
+log time - 2022-11-26 22:09:00 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'href': 'https://cloud-api.yandex.net/v1/disk/resources?path=disk%3A%2Fcoursework_26-11-2022+22_08_59', 'method': 'GET', 'templated': False}
+log time - 2022-11-26 22:09:00 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'href': 'https://cloud-api.yandex.net/v1/disk/resources?path=disk%3A%2Fcoursework_26-11-2022+22_08_59', 'method': 'GET', 'templated': False}
+log time - 2022-11-26 22:09:51 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'href': 'https://cloud-api.yandex.net/v1/disk/resources?path=disk%3A%2Fcoursework_26-11-2022+22_09_50', 'method': 'GET', 'templated': False}
+log time - 2022-11-26 22:09:51 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'href': 'https://cloud-api.yandex.net/v1/disk/resources?path=disk%3A%2Fcoursework_26-11-2022+22_09_50', 'method': 'GET', 'templated': False}
+log time - 2022-11-26 22:09:51 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'href': 'https://cloud-api.yandex.net/v1/disk/resources?path=disk%3A%2Fcoursework_26-11-2022+22_09_50', 'method': 'GET', 'templated': False}
+log time - 2022-11-26 22:12:04 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'href': 'https://cloud-api.yandex.net/v1/disk/resources?path=disk%3A%2Fcoursework_26-11-2022+22_12_03', 'method': 'GET', 'templated': False}
+log time - 2022-11-26 22:12:04 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'href': 'https://cloud-api.yandex.net/v1/disk/resources?path=disk%3A%2Fcoursework_26-11-2022+22_12_03', 'method': 'GET', 'templated': False}
+log time - 2022-11-26 22:12:04 | log level - INFO | MainProcess - create_folder | module name: yandex_upload - line: 21 | message - {'href': 'https://cloud-api.yandex.net/v1/disk/resources?path=disk%3A%2Fcoursework_26-11-2022+22_12_03', 'method': 'GET', 'templated': False}
